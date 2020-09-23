@@ -1,9 +1,3 @@
-"""
-sample proxy program for Part 2
-Computer Networks Spring 2020
-
-"""
-
 from socket import *
 from re import *
 import select
