@@ -4,7 +4,9 @@ Written in Python using the Socket API
 The proxy will receive a GET request and communicate with the server. The proxy is able to receive files from the server, cache it, and forward it to the client. 
 It handles 404 and 301 errors. 
 
-# How to run
+## How to run
+0. Clone this repo
+
 1. Run the server with 
 `python3 server.py`
 
@@ -15,7 +17,7 @@ It handles 404 and 301 errors.
 3. Make a get request such as: 
 `http://​localhost:8080​/​www.columbia.edu/~ge2211/4119/test2/www.hats.com/`
 
-# Implementation details
+## Implementation details
 The IP address for my proxy is localhost and the port number I used was 8080.
 
 To implement caching, I used the OS file system to store the received files.
